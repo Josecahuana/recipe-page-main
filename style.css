@@ -1,0 +1,146 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#f3e5d8;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 20px;
+}
+
+h1, h2{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+h1{
+    color: #31302e;
+}
+
+h2{
+    color: #774230;
+    font-weight: 400;
+}
+
+b{
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(24, 5%, 18%);
+    /* font-family: 'Young Serif', serif; */
+}
+
+p, li, td{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+::marker{
+    color:hsl(14, 45%, 36%);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 110px 0;
+}
+
+.receta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 750px;
+    height: 100%;
+    background-color: #fff;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 1.5rem
+}
+
+/*PREPARATION TIME*/
+#preparation-time{
+    background-color: #fff7fc;
+    width: 100%;
+    padding: 30px;
+    
+}
+
+#preparation-time ul{
+    padding-left: 30px;
+}
+#preparation-time ul li {
+    
+    padding: 12px 0 0 20px;
+}
+
+/*INGREDIENTS*/
+.ingredients{
+    width: 100%;
+    margin-top: 1px;
+    padding: 20px 0 30px 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.ingredients ul{
+    padding-left: 22px;
+}
+.ingredients ul li{
+    padding: 20px 0 0 20px;
+}
+
+/*INSTRUCTION*/
+.instructions{
+    width: 100%;
+    line-height: 1.5rem;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.instructions ol{
+    padding-left: 20px;
+}
+.instructions ol li{
+    padding: 12px 0 0 20px;
+}
+
+/*NUTRITION*/
+.nutrition{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 10px;
+}
+
+table tr:last-child{
+    border: none;
+}
+span{
+    color:  #774230;
+    font-weight: 700;
+}
+
+tr, td{
+    padding: 15px;
+}
